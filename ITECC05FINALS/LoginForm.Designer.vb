@@ -41,28 +41,30 @@ Partial Class LoginForm
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 30F)
-        Label1.Location = New Point(228, 25)
+        Label1.Font = New Font("Bantayog", 30F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(315, 48)
         Label1.Name = "Label1"
-        Label1.Size = New Size(341, 54)
+        Label1.Size = New Size(182, 41)
         Label1.TabIndex = 1
-        Label1.Text = "Shopping Chuchu"
+        Label1.Text = "Remileon"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
+        Label2.Font = New Font("Bantayog", 9F)
         Label2.Location = New Point(255, 124)
         Label2.Name = "Label2"
-        Label2.Size = New Size(63, 15)
+        Label2.Size = New Size(62, 12)
         Label2.TabIndex = 2
         Label2.Text = "Username:"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
+        Label3.Font = New Font("Bantayog", 9F)
         Label3.Location = New Point(257, 198)
         Label3.Name = "Label3"
-        Label3.Size = New Size(60, 15)
+        Label3.Size = New Size(63, 12)
         Label3.TabIndex = 3
         Label3.Text = "Password:"
         ' 
@@ -80,6 +82,7 @@ Partial Class LoginForm
         Login.Cursor = Cursors.Hand
         Login.FlatAppearance.BorderColor = Color.FromArgb(CByte(179), CByte(19), CByte(18))
         Login.FlatStyle = FlatStyle.Flat
+        Login.Font = New Font("Bantayog", 9F)
         Login.ForeColor = SystemColors.ButtonHighlight
         Login.Location = New Point(427, 289)
         Login.Name = "Login"
@@ -94,6 +97,7 @@ Partial Class LoginForm
         sign_up.Cursor = Cursors.Hand
         sign_up.FlatAppearance.BorderColor = Color.FromArgb(CByte(179), CByte(19), CByte(18))
         sign_up.FlatStyle = FlatStyle.Flat
+        sign_up.Font = New Font("Bantayog", 9F)
         sign_up.ForeColor = SystemColors.ButtonHighlight
         sign_up.Location = New Point(255, 289)
         sign_up.Name = "sign_up"
